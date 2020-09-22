@@ -8,6 +8,8 @@
 
 - Shallow-merge `options.variables` when combining existing or default options with newly-provided options, so new variables do not completely overwrite existing variables. <br/>
   [@amannn](https://github.com/amannn) in [#6927](https://github.com/apollographql/apollo-client/pull/6927)
+- Disable "Missing cache result fields" warnings when `returnPartialData` is `true`.  <br/>
+  [@hwillson](https://github.com/hwillson) in [#7055](https://github.com/apollographql/apollo-client/pull/7055)
 
 ## Apollo Client 3.2.1
 
